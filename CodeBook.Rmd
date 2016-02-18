@@ -1,0 +1,30 @@
+---
+title: "CodeBook"
+author: "Louis"
+date: "February 18, 2016"
+output: html_document
+---
+
+a code book that describes the variables, the data, and any transformations or work that you performed to clean up the datacalled CodeBook.md
+
+
+#Data
+
+* **activityTest** Test label data
+* **activityTrain** Training label data
+* **subjectTrain** Identifies the subject/volunteer carrying the device during the training phase
+* **subjectTest** Identifies the subject/volunteer carrying the device during the test phase 
+* **featuresTest** Test data set
+* **featuresTrain** Training data set
+* **featuresNames** List of all feature names
+
+
+#Work/Transformations
+* **subjectCombined, activityCombined, featuresCombined** are the combinations of the trainign and test sets for the respective data
+
+* **subjectActivity** is the combination of all the data
+* **completeData** adds the features information to the observation data
+
+* **tidyData** Data Set with average of each variable
+
+

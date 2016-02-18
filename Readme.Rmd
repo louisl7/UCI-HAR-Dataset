@@ -1,0 +1,29 @@
+---
+title: "Readme"
+author: "Louis"
+date: "February 18, 2016"
+output: html_document
+---
+
+#Files in Repo
+The following 3 files are in the Repo:
+
+* **run_analysis.R** includes the script that performs all the needed file reading, data combination and creationg of the tidyData.txt file
+
+* **CodeBook.md** file including a description of the variables and work in run_analysis.R
+
+* **Readme.md** this file
+
+* **tidyData.txt** the output of run_analysis.R script as outlined in the assignment insructions:
+
+```
+You should create one R script called run_analysis.R that does the following.
+
+Merges the training and the test sets to create one data set.
+Extracts only the measurements on the mean and standard deviation for each measurement.
+Uses descriptive activity names to name the activities in the data set
+Appropriately labels the data set with descriptive variable names.
+From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+```
+
+
